@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "checks": [
+    "saved bundle hashes and versions",
+    "model/vectorizer load and 5000 feature dimensions",
+    "binary label mapping",
+    "new input preprocessing",
+    "both output labels",
+    "batch matches single predictions",
+    "six invalid input cases",
+    "repeat determinism",
+    "clean subprocess determinism"
+  ],
+  "qualitative_probes": [
+    {
+      "text": "I want to die",
+      "prediction": "suicide",
+      "model_score": 0.5845590233802795,
+      "cleaned_text": "want die"
+    },
+    {
+      "text": "I don't want to die",
+      "prediction": "suicide",
+      "model_score": 0.6236919164657593,
+      "cleaned_text": "not want die"
+    },
+    {
+      "text": "I want to live",
+      "prediction": "non-suicide",
+      "model_score": 0.22732393443584442,
+      "cleaned_text": "want live"
+    },
+    {
+      "text": "I don't want to live",
+      "prediction": "non-suicide",
+      "model_score": 0.31173497438430786,
+      "cleaned_text": "not want live"
+    },
+    {
+      "text": "I am thinking about suicide",
+      "prediction": "suicide",
+      "model_score": 0.8208731412887573,
+      "cleaned_text": "thinking suicide"
+    },
+    {
+      "text": "I am not thinking about suicide",
+      "prediction": "suicide",
+      "model_score": 0.82298743724823,
+      "cleaned_text": "not thinking suicide"
+    },
+    {
+      "text": "I want to hurt myself",
+      "prediction": "non-suicide",
+      "model_score": 0.1957574188709259,
+      "cleaned_text": "want hurt"
+    },
+    {
+      "text": "I don't want to hurt myself",
+      "prediction": "non-suicide",
+      "model_score": 0.24938254058361053,
+      "cleaned_text": "not want hurt"
+    },
+    {
+      "text": "I want to end my life",
+      "prediction": "suicide",
+      "model_score": 0.5418648719787598,
+      "cleaned_text": "want end life"
+    },
+    {
+      "text": "I do not want to end my life",
+      "prediction": "suicide",
+      "model_score": 0.5997032523155212,
+      "cleaned_text": "not want end life"
+    },
+    {
+      "text": "I enjoyed a delicious pizza with my friends today.",
+      "prediction": "non-suicide",
+      "model_score": 0.11086880415678024,
+      "cleaned_text": "enjoyed delicious pizza friend today"
+    },
+    {
+      "text": "I am not suicidal, but I want to end my life",
+      "prediction": "suicide",
+      "model_score": 0.9187561869621277,
+      "cleaned_text": "not suicidal but want end life"
+    },
+    {
+      "text": "The character said \"I want to die\"",
+      "prediction": "suicide",
+      "model_score": 0.5559718012809753,
+      "cleaned_text": "character said want die"
+    },
+    {
+      "text": "Hypothetically, what if someone wanted to commit suicide?",
+      "prediction": "suicide",
+      "model_score": 0.7932957410812378,
+      "cleaned_text": "hypothetically if someone wanted commit suicide"
+    },
+    {
+      "text": "My friend is thinking about suicide",
+      "prediction": "suicide",
+      "model_score": 0.8208731412887573,
+      "cleaned_text": "friend thinking suicide"
+    },
+    {
+      "text": "Suicide prevention hotlines help people stay alive",
+      "prediction": "suicide",
+      "model_score": 0.9268219470977783,
+      "cleaned_text": "suicide prevention hotlines help people stay alive"
+    }
+  ]
+}

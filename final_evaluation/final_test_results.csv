@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1_Score,Evaluation_Type,Evaluation_Rows
+XGBoost,0.8272695922062246,0.834267403261232,0.8272883004375486,0.8263665162645757,Full test set,23198

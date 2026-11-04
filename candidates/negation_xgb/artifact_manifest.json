@@ -1,0 +1,20 @@
+{
+  "status": "new reproduction",
+  "features": 5000,
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "joblib": "1.5.3",
+    "nltk": "3.9.2",
+    "python": "3.12.14"
+  },
+  "sha256": {
+    "model.pkl": "366dc47c145480500a450a1b73a6766156d0255a1870bd799c0d242e1011ccc5",
+    "vectorizer.pkl": "d6982dcc36a05a28e32f7baec594f9e21c89230e370791b2080ea7b1741617d2",
+    "label_mapping.pkl": "a26cd10049809c16ab748cce95b06ef912a13d5098b3cb10d94ec98b24368d86",
+    "preprocessing.py": "015f35dbcfd0787b03f902e0f96cba88d039999e8632d2a322409e18484fe6e9"
+  }
+}

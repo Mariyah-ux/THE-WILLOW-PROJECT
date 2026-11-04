@@ -1,0 +1,27 @@
+{
+  "dataset_sha256": "1ec16b065a2fae36488de16e8abfc326586a576a25901e09467223e545ddd295",
+  "raw_rows": 232074,
+  "eligible_rows": 231973,
+  "removed_rows": 101,
+  "seed": 42,
+  "proportions": [
+    0.8,
+    0.1,
+    0.1
+  ],
+  "sizes": {
+    "train": 185578,
+    "val": 23197,
+    "test": 23198
+  },
+  "saved_label_order_matches": {
+    "train": true,
+    "val": true,
+    "test": true
+  },
+  "historical_matrix_max_absolute_error": {
+    "train": 5.960464477539063e-08,
+    "val": 5.960464477539063e-08
+  },
+  "row_identity": "zero-based CSV data row, not an invented original ID"
+}
